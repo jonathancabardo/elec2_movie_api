@@ -94,7 +94,7 @@ class MovieList(Resource):
 @api_movie.route("/<int:movie_id>")
 class MovieById(Resource):
     def get(self, movie_id):
-        """Return a genre"""
+        """Return a movie"""
         # ----- YOUR CODE HERE ----
         return {}
 
